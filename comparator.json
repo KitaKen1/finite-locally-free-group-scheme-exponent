@@ -1,0 +1,16 @@
+{
+  "challenge_module": "FClikelean.Statement",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "FiniteLocallyFreeGroupSchemeExponent.optimal_exponent",
+    "FiniteLocallyFreeGroupSchemeExponent.optimal_exponent.rank_four",
+    "FiniteLocallyFreeGroupSchemeExponent.optimal_exponent.rank_nine"
+  ],
+  "definition_names": [
+    "FiniteLocallyFreeGroupSchemeExponent.optimal_exponent.answer"
+  ],
+  "permitted_axioms": ["propext", "Classical.choice", "Quot.sound"],
+  "external_kernels": {
+    "nanoda": ["nanoda_bin"]
+  }
+}

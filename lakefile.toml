@@ -1,0 +1,25 @@
+name = "finite_locally_free_group_scheme_exponent"
+version = "0.1.0"
+defaultTargets = ["FClikelean", "Solution"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "56a005855ea17e0b0958f73ec801ae140b0a1679"
+
+[[lean_lib]]
+name = "Model"
+
+[[lean_lib]]
+name = "OptimalExponentExecutable"
+srcDir = "lean"
+roots = ["OptimalExponentExecutable", "ExecutablePolynomial", "FiniteRingCertificate", "HopfPointOrder", "HopfStructureConstants", "IntegerIdealSeparation", "NinePowerCalculation", "OptimalExponent", "OptimalExponentPresentation", "RankFourExponent", "RankNineBase", "RankNineExample", "RankNineExponent", "SmallRankUpperBounds", "SquareZeroCubicPlane", "TranslationNewton"]
+
+[[lean_lib]]
+name = "FClikelean"
+globs = ["FClikelean.+"]
+
+[[lean_lib]]
+name = "Solution"
+srcDir = "leanWithComparator"
