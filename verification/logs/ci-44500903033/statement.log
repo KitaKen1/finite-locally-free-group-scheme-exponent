@@ -1,0 +1,10 @@
+'FiniteLocallyFreeGroupSchemeExponent.optimal_exponent.answer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FiniteLocallyFreeGroupSchemeExponent.optimal_exponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FiniteLocallyFreeGroupSchemeExponent.optimal_exponent.rank_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FiniteLocallyFreeGroupSchemeExponent.optimal_exponent.rank_nine' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

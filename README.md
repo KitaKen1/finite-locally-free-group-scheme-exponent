@@ -227,6 +227,11 @@ sandbox setting when CI runs.
 
 ### Certification after 90 days
 
+The successful GitHub Actions run for commit `43c2dc4` is archived in this
+repository. The archive remains available after the Actions artifact expires
+and includes the original verification and workflow log ZIPs.
+[CI archive](verification/logs/ci-44500903033/) · [Comparator log](verification/logs/ci-44500903033/comparator.log) · [Verification receipt](verification/logs/ci-44500903033/result.json) · [SHA-256 checksums](verification/logs/ci-44500903033/SHA256SUMS)
+
 While a successful artifact is available, archive it with an authenticated
 GitHub CLI. The archive checks the run attempt, the tested revision,
 GitHub's artifact digest and both kernel verdicts. It retains the

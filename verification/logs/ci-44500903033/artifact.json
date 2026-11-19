@@ -1,0 +1,20 @@
+{
+  "id": 14517437897,
+  "node_id": "MDg6QXJ0aWZhY3QxNDUxNzQzNzg5Nw==",
+  "name": "lean-verification-44500903033-1",
+  "size_in_bytes": 10962,
+  "url": "https://api.github.com/repos/KitaKen1/finite-locally-free-group-scheme-exponent/actions/artifacts/14517437897",
+  "archive_download_url": "https://api.github.com/repos/KitaKen1/finite-locally-free-group-scheme-exponent/actions/artifacts/14517437897/zip",
+  "expired": false,
+  "digest": "sha256:db1f37916f8eae96bac464e9301cd5427e25e47a780e60ed4d2c500279b1d10c",
+  "created_at": "2026-11-19T10:01:19Z",
+  "updated_at": "2026-11-19T10:01:19Z",
+  "expires_at": "2027-02-17T09:55:51Z",
+  "workflow_run": {
+    "id": 44500903033,
+    "repository_id": 1463949906,
+    "head_repository_id": 1463949906,
+    "head_branch": "main",
+    "head_sha": "43c2dc4556089111b5dc736513ebb38898b1803f"
+  }
+}

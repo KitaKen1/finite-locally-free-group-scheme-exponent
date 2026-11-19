@@ -1,0 +1,26 @@
+{
+  "accepted": true,
+  "checked_at_utc": "2026-11-19T10:01:17+00:00",
+  "platform": "Linux",
+  "github_commit": "43c2dc4556089111b5dc736513ebb38898b1803f",
+  "sandbox": "bubblewrap",
+  "comparator_kernels": [
+    "Lean",
+    "nanoda"
+  ],
+  "fresh_lean_export_replay": true,
+  "full_environment_replayed": false,
+  "theorems": [
+    "FiniteLocallyFreeGroupSchemeExponent.optimal_exponent",
+    "FiniteLocallyFreeGroupSchemeExponent.optimal_exponent.rank_four",
+    "FiniteLocallyFreeGroupSchemeExponent.optimal_exponent.rank_nine"
+  ],
+  "definitions": [
+    "FiniteLocallyFreeGroupSchemeExponent.optimal_exponent.answer"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}
